@@ -1,0 +1,201 @@
+.skin1 .jQueryTabs_nav
+{
+	width : 100%;
+}
+.skin1 .jQueryTabs_navUL
+{
+	list-style : none;
+	width : 100%;
+	margin : 0 auto;
+	padding : 0;
+	display : inline-block;
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr=#7FE8E9EC, endColorstr=#7FE8E9EC,GradientType=0 );
+	background-color : rgba(232, 233, 236, 0.50);
+}
+.skin1 .jQueryTabs_navLink
+{
+	display : block;
+	text-decoration : none;
+	-webkit-touch-callout : none;
+	-webkit-user-select : none;
+	-khtml-user-select : none;
+	-moz-user-select : none;
+	-ms-user-select : none;
+	user-select : none;
+	background-color : none;
+	height : 40px;
+	text-align : center;
+	box-sizing : initial;
+	border-top-style : none;
+	line-height : 39px;
+	border-top-width : 0px;
+	border-right-color : rgba(0, 0, 0, 0.1);
+	border-right-width : 1px;
+	border-bottom-width : 0px;
+	border-left-width : 0px;
+	border-right-style : solid;
+	border-bottom-style : none;
+	border-left-style : none;
+	font-family : Arial, Helvetica, sans-serif;
+	font-weight : 700;
+}
+.skin1 .jQueryTabs_navLink.hover
+{
+	text-decoration : none;
+	border-right-color : transparent;
+	background-image : -webkit-gradient(linear, left top, left bottom,color-stop(0%, #8ec63f),color-stop(100%, #25b34b));
+	background-image : -webkit-linear-gradient( top,#8ec63f 0%, #25b34b 100%);
+	background-image : -moz-linear-gradient( top,#8ec63f 0%, #25b34b 100%);
+	background-image : -o-linear-gradient( top,#8ec63f 0%, #25b34b 100%);
+	background-image : -ms-linear-gradient( top,#8ec63f 0%, #25b34b 100%);
+	background-image : linear-gradient( to bottom,#8ec63f 0%, #25b34b 100%);
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr= #8ec63f, endColorstr= #25b34b,GradientType=0 );
+}
+.skin1 .jQueryTabs_navLink.hover .jQueryTabs_navSpan
+{
+	color : #FFFFFF;
+	color : rgba(255, 255, 255, 1.00);
+	*color : #FFFFFF;
+}
+.skin1 .jQueryTabs_navLink.hover .jQueryTabs_navImg
+{
+	color : #FFFFFF;
+	color : rgba(255, 255, 255, 1.00);
+	*color : #FFFFFF;
+}
+.skin1 .jQueryTabs_navLI
+{
+	display : block;
+	width : 20%;
+	float : left;
+	box-sizing : border-box;
+}
+.skin1 .jQueryTabs_navLink .jQueryTabs_navImg
+{
+	vertical-align : middle;
+	margin-right : 7px;
+	font-size : 16px;
+	color : #444444;
+}
+.skin1 .jQueryTabs_navLink .jQueryTabs_navSpan
+{
+	font-size : 13px;
+	color : #444444;
+}
+.skin1 .jQueryTabs_content
+{
+	transition : height 0.25s ease;
+	padding : 25px;
+	margin-top : 0px;
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr=#FFFFFFFF, endColorstr=#FFFFFFFF,GradientType=0 );
+	background-color : rgba(255, 255, 255, 1.00);
+	border : 1px solid #F46A0E;
+	overflow : auto;
+}
+.skin1 .jQueryTabs_contentDivs
+{
+	width : 100%;
+	margin-left : auto;
+	margin-right : auto;
+	box-sizing : border-box;
+	display : block;
+	transition : opacity 0.25s ease;
+	opacity : 1;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 14px;
+}
+.skin1 .jQueryTabs_contentDivs.hidden
+{
+	display : none;
+}
+.skin1 .jQueryTabs_contentDivs .skin_p
+{
+	margin : 0;
+}
+.skin1 .jQueryTabs_navLink.selected .jQueryTabs_navImg
+{
+	color : #FFFFFF;
+	color : rgba(255, 255, 255, 1.00);
+	*color : #FFFFFF;
+}
+.skin1 .jQueryTabs_navLink.selected .jQueryTabs_navSpan
+{
+	color : #FFFFFF;
+	color : rgba(255, 255, 255, 1.00);
+	*color : #FFFFFF;
+}
+.skin1 .jQueryTabs_contentDivs.fade-out
+{
+	opacity : 0;
+	width : auto;
+}
+.skin1 .jQueryTabs_contentDivs.fade-in
+{
+	opacity : 1;
+}
+body
+{
+	margin : 0;
+}
+.skin1 .jQueryTabs_navLink.selected
+{
+	background-image : -webkit-gradient(linear, left top, left bottom,color-stop(0%, #fbc13b),color-stop(100%, #f46a0e));
+	background-image : -webkit-linear-gradient( top,#fbc13b 0%, #f46a0e 100%);
+	background-image : -moz-linear-gradient( top,#fbc13b 0%, #f46a0e 100%);
+	background-image : -o-linear-gradient( top,#fbc13b 0%, #f46a0e 100%);
+	background-image : -ms-linear-gradient( top,#fbc13b 0%, #f46a0e 100%);
+	background-image : linear-gradient( to bottom,#fbc13b 0%, #f46a0e 100%);
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr= #fbc13b, endColorstr= #f46a0e,GradientType=0 );
+}
+.jQueryTabs_navUL
+{
+	vertical-align : top;
+}
+.skin1 .jQueryTabs_navLI:last-of-type .jQueryTabs_navLink, .skin1 .jQueryTabs_navLI.last-item .jQueryTabs_navLink
+{
+	border-right : 0;
+	border-right-width : 0;
+}
+.jQueryTabs_navSpan,
+.jQueryTabs_navImg,
+a.jQueryTabs_navLink
+{
+	-webkit-transition : all .4s ease;
+	-moz-transition : all .4s ease;
+	-ms-transition : all .4s ease;
+	-o-transition : all .4s ease;
+	transition : all .4s ease;
+}
+a.jQueryTabs_navLink
+{
+	color : transparent;
+	outline : none;
+}
+
+/*end of skin css*/
+
+#jQueryTabs1 .jQueryTabs_contentDivs
+{
+	transition : opacity 0.17s ease;
+}
+#jQueryTabs1 .jQueryTabs_content
+{
+	transition : height 0.17s ease;
+}
+@media (max-width:640px)
+{
+	#jQueryTabs1 .jQueryTabs_navUL
+	{
+		width : 200%;
+		position : relative;
+		left : 0px;
+	}
+	#jQueryTabs1 .jQueryTabs_navLI
+	{
+		width : 20.00%;
+	}
+	#jQueryTabs1 .jQueryTabs_nav
+	{
+		overflow : hidden;
+	}
+}

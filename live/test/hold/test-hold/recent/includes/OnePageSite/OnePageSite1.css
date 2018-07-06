@@ -1,0 +1,135 @@
+#home {
+}
+.section-content-home{
+	width: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	min-height: 500px;
+	background-color: #6f2a8e;
+}
+#about {
+	background-color: #ECDDF1;
+	color: rgba(255,255,255,1.00);
+	text-align: center;
+}
+.section-content-about{
+	width:auto;
+	padding-left:10px;
+	padding-right:10px;
+	min-height:500px;
+}
+#stories {
+	background-color: #C9C8CA;
+}
+.section-content-stories{
+	width:auto;
+	padding-left:10px;
+	padding-right:10px;
+	min-height:500px;
+}
+#products {
+    background-color:#a662a1;
+}
+.section-content-products{
+	width:auto;
+	padding-left:10px;
+	padding-right:10px;
+	min-height:500px;
+}
+#campaigns {
+    background-color:#636466;
+}
+.section-content-campaigns{
+	width:auto;
+	padding-left:10px;
+	padding-right:10px;
+	min-height:500px;
+}
+#ellen {
+	background-color: #ABABAC;
+}
+.section-content-ellen{
+	width:auto;
+	padding-left:10px;
+	padding-right:10px;
+	min-height:500px;
+}
+#donate {
+	background-color: #E6BFF2;
+}
+.section-content-donate{
+	width:auto;
+	padding-left:10px;
+	padding-right:10px;
+	min-height:500px;
+}
+@media screen and (min-width:649px) {
+
+.section-content-about{
+	width:90%;
+	margin:0px auto;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.section-content-stories{
+	width:90%;
+	margin:0px auto;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.section-content-products{
+	width:90%;
+	margin:0px auto;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.section-content-campaigns{
+	width:90%;
+	margin:0px auto;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.section-content-ellen{
+	width:90%;
+	margin:0px auto;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.section-content-donate{
+	width:90%;
+	margin:0px auto;
+	padding-left:0px;
+	padding-right:0px;
+}
+}
+@media screen and (min-width:1176px) {
+
+.section-content-about{
+	width:1176px;
+}
+
+.section-content-stories{
+	width:1176px;
+}
+
+.section-content-products{
+	width:1176px;
+}
+
+.section-content-campaigns{
+	width:1176px;
+}
+
+.section-content-ellen{
+	width:1176px;
+}
+
+.section-content-donate{
+	width:1176px;
+}
+}

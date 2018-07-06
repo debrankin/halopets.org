@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+<url>
+  <loc>http://www.halopets.com/foundation-test-site/about_the_foundation.html</loc>
+  <lastmod>2009-07-12</lastmod>
+</url>
+<url>
+  <loc>http://www.halopets.com/foundation-test-site/campaigns.html</loc>
+  <lastmod>2009-07-12</lastmod>
+</url>
+<url>
+  <loc>http://www.halopets.com/foundation-test-site/contactus.html</loc>
+  <lastmod>2009-07-12</lastmod>
+</url>
+<url>
+  <loc>http://www.halopets.com/foundation-test-site/donate_widget.html</loc>
+  <lastmod>2009-05-26</lastmod>
+</url>
+<url>
+  <loc>http://www.halopets.com/foundation-test-site/grants.html</loc>
+  <lastmod>2009-07-12</lastmod>
+</url>
+<url>
+  <loc>http://www.halopets.com/foundation-test-site/index.html</loc>
+  <lastmod>2009-07-12</lastmod>
+</url>
+<url>
+  <loc>http://www.halopets.com/foundation-test-site/lend_a_paw.html</loc>
+  <lastmod>2009-07-12</lastmod>
+</url>
+<url>
+  <loc>http://www.halopets.com/foundation-test-site/lend_a_paw2.html</loc>
+  <lastmod>2009-07-12</lastmod>
+</url>
+<url>
+  <loc>http://www.halopets.com/foundation-test-site/message_from_ellen.html</loc>
+  <lastmod>2009-08-15</lastmod>
+</url>
+<url>
+  <loc>http://www.halopets.com/foundation-test-site/stories.html</loc>
+  <lastmod>2009-07-12</lastmod>
+</url>
+<url>
+  <loc>http://www.halopets.com/foundation-test-site/mock2/index.html</loc>
+  <lastmod>2009-03-07</lastmod>
+</url>
+<url>
+  <loc>http://www.halopets.com/foundation-test-site/mock2/index2.html</loc>
+  <lastmod>2009-03-08</lastmod>
+</url>
+<url>
+  <loc>http://www.halopets.com/foundation-test-site/mock2/index3.html</loc>
+  <lastmod>2009-03-08</lastmod>
+</url>
+<url>
+  <loc>http://www.halopets.com/foundation-test-site/mock2/index4.html</loc>
+  <lastmod>2009-03-08</lastmod>
+</url>
+<url>
+  <loc>http://www.halopets.com/foundation-test-site/mock2/index5.html</loc>
+  <lastmod>2009-03-08</lastmod>
+</url>
+<url>
+  <loc>http://www.halopets.com/foundation-test-site/mock2/index6.html</loc>
+  <lastmod>2009-03-08</lastmod>
+</url>
+<url>
+  <loc>http://www.halopets.com/foundation-test-site/mock2/index7.html</loc>
+  <lastmod>2009-03-08</lastmod>
+</url>
+<url>
+  <loc>http://www.halopets.com/foundation-test-site/Templates/template.dwt</loc>
+  <lastmod>2009-07-12</lastmod>
+</url>
+
+</urlset>

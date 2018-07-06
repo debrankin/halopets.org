@@ -1,0 +1,183 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>MenuMatic : &lt;default&gt;</title>
+<script type='text/javascript' src='http://www.google.com/jsapi'></script>
+<script type="text/javascript">
+google.load("mootools", "1.2.1");
+</script>
+<script type='text/javascript' src='js/MenuMatic_0.68.3.js'></script>
+<link type='text/css' href='css/MenuMatic.css' rel='stylesheet'/>
+<style type="text/css">
+/* ----[ LINKS ]----*/
+a:link{ 
+	color: #cf7f18; 
+	font-weight: normal; 
+	font-family: inherit;
+	font-size: inherit; 
+ }
+
+a:visited{ 
+	color: #cf7f18; 
+	font-weight: normal; 
+	font-family: inherit;
+	font-size: inherit; 	
+}
+
+/* all menu links */
+#nav a, #subMenusContainer a{
+	text-decoration:none;
+	display:block;
+	padding: 10px 20px;
+	background-color:#ffffff ;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	border: 0px solid #000000; 
+}
+
+/* Just main menu links --[for non-javascript users this applies to submenu links as well]*/
+#nav a{
+	margin:0;
+	float:left;	
+}
+
+/* Just sub menu links */
+#subMenusContainer a, #nav li li a{
+	text-align:left;
+}
+
+/* All menu links on hover or focus */
+#nav a:hover, #nav a:focus, #subMenusContainer a:hover, #subMenusContainer a:focus, #nav a.mainMenuParentBtnFocused, #subMenusContainer a.subMenuParentBtnFocused{
+	background-color: #f6c739; 
+	color: #ffffff; 
+}
+
+/* sub menu links on hover or focus */
+#subMenusContainer a:hover, 
+#subMenusContainer a:focus, 
+#nav a.mainMenuParentBtnFocused, 
+#subMenusContainer a.subMenuParentBtnFocused,
+#nav li a:hover,
+#nav li a:focus{
+	background-color: #f6c739; 
+	color: #ffffff; 
+}
+
+/* ----[ OLs ULs, LIs, and DIVs ]----*/
+
+/* All ULs and OLs */
+#nav, #nav ul, #nav ol, #subMenusContainer ul, #subMenusContainer ol { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	line-height: 1em;
+}
+
+/* All submenu OLs and ULs */
+#nav ol, #nav ul, #subMenusContainer ul, #subMenusContainer ol {	
+	/*border around submenu goes here*/	 
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	background:#fff;	
+	border:1px solid #C3D46A;
+	left:0;
+}
+
+/* List items in main menu --[for non-javascript users this applies to submenus as well]  */
+#nav li { 
+	/*great place to use a background image as a divider*/
+	display:block;
+	list-style:none;
+	position:relative;
+	float:left;
+}
+
+#subMenusContainer li{
+	list-style: none;
+}
+
+/* main menu ul or ol elment */
+#nav{
+	display:block;
+	position: absolute;
+	list-style:none;
+	margin:0 0 0 0;
+	z-index:5;
+	top:15px;
+	display:block;
+}
+
+#subMenusContainer{	display:block; 	position:absolute;	top:0;	left:0;	width:100%;	height:0;	overflow:visible;	z-index:1000000000; }
+
+
+/* --------------------------[ The below is just for non-javscript users ]--------------------------*/
+#nav li li{	float:none; }
+
+#nav li li a{ /* Just submenu links*/	
+	position:relative;
+	float:none;
+}
+
+#nav li ul { /* second-level lists */
+	position: absolute;
+	width: 10em;
+	margin-left: -1000em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+	margin-top:2.2em;
+}
+
+/* third-and-above-level lists */
+#nav li ul ul { margin: -1em 0 0 -1000em; }
+#nav li:hover ul ul {	margin-left: -1000em; }
+
+ /* lists nested under hovered list items */
+#nav li:hover ul{	margin-left: 0; }
+#nav li li:hover ul {	margin-left: 10em; margin-top:-2.5em;}
+
+/* extra positioning rules for limited noscript keyboard accessibility */
+#nav li a:focus + ul {  margin-left: 0; margin-top:2.2em; }
+#nav li li a:focus + ul { left:0; margin-left: 1010em; margin-top:-2.2em;}
+#nav li li a:focus {left:0;  margin-left:1000em; width:10em;  margin-top:0;}
+#nav li li li a:focus {left:0; margin-left: 2010em; width: 10em;  margin-top:-1em;}
+#nav li:hover a:focus{ margin-left: 0; }
+#nav li li:hover a:focus + ul { margin-left: 10em; }
+</style>
+<script type="text/javascript" src="p7pm/p7popmenu.js"></script>
+<style type="text/css" media="screen">
+<!--
+@import url("p7pm/p7pmh0.css");
+-->
+</style>
+</head>
+
+<body onLoad="P7_initPM(1,0,1,-20,10)">
+<ul id="p7PMnav">
+  <li><a href="#">Section 1</a></li>
+  <li><a href="#" class="p7PMtrg">Section 2</a>
+    <ul>
+      <li><a href="#">Link 2.1</a></li>
+      <li><a href="#" class="p7PMtrg">Link 2.2</a>
+        <ul>
+          <li><a href="#">Link 2.2.1</a></li>
+          <li><a href="#">Link 2.2.2</a></li>
+          <li><a href="#">Link 2.2.3</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Link 2.3</a></li>
+    </ul>
+  </li>
+  <li><a href="#" class="p7PMtrg">Section 3</a>
+    <ul>
+      <li><a href="#">Link 3.1</a></li>
+      <li><a href="#">Link 3.2</a></li>
+      <li><a href="#">Link 3.3</a></li>
+    </ul>
+  </li>
+  <li><a href="#">Section 4</a></li>
+  <!--[if lte IE 6]><style>#p7PMnav a{height:1em;}#p7PMnav li{height:1em;}#p7PMnav ul li{float:left;clear:both;width:100%}</style><![endif]-->
+  <!--[if IE 6]><style>#p7PMnav ul li{clear:none;}</style><![endif]-->
+  <!--[if IE 7]><style>#p7PMnav a{zoom:100%;}#p7PMnav ul li{float:left;clear:both;width:100%;}</style><![endif]-->
+</ul>
+</body>
+</html>

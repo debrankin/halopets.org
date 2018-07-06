@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Halo Pet Foundation</title>
+<!-- TemplateEndEditable -->
+<!--[if IE 5]>
+<style type="text/css"> 
+/* place css box model fixes for IE 5* in this conditional comment */
+.twoColFixLtHdr #sidebar1 { width: 230px; }
+</style>
+<![endif]-->
+<!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColFixLtHdr #sidebar1 { padding-top: 30px; }
+.twoColFixLtHdr #mainContent { zoom: 1; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]-->
+<link href="../global.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22880726-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,300,700,800' rel='stylesheet' type='text/css' />
+<script type="text/javascript" src="../includes/extendjQuery.js"></script>
+<script type="text/javascript" src="../includes/FlexiMenus2/fleximenus2.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="../includes/FlexiMenus2/CSSMenu_CSSMenu1.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="twoColFixLtHdr" onload="MM_preloadImages('../images/nav/message_on.png','../images/nav-on/about.png','../images/nav-on/stories.png','../images/nav-on/lendapaw.png','../images/nav-on/campaigns.png','../images/nav-on/grants.png','../images/nav/about.png','../images/nav/campaigns.png','../images/nav/grants.png','../images/nav/home.png','../images/nav/lendapaw.png','../images/nav/mesage.png','../images/nav/stories.png','../images/nav-select/stories.jpg','../images/nav-select/paw.jpg','../images/nav-select/campaigns.jpg','../images/nav-select/petco.jpg','../images/nav-select/grants.png')">
+<div class="masthead">
+  <div id="header">
+    <!--  <div id="searchHF">
+     <form method='post' name='searchportlettag' id='searchportlettag'  onsubmit="window.location.href='http://shop.halopets.com/s.nl?c=663240&sc=2&category=&search='+escape(document.forms['searchportlettag'].elements['search'].value);return false;">
+     <label for="searchBox01">PRODUCT SEARCH</label><input name="search" type="text" id="searchBox01" size="15" /><input type="image" src="http://shop.halopets.com/c.663240/images/btn-go-01.gif" alt="Go" id="searchButton01" onclick="window.location.href='http://shop.halopets.com/s.nl?c=663240&sc=2&category=&search='+escape(document.forms['searchportlettag'].elements['search'].value);return false;return false;" /></form>
+   </div> -->
+  <!-- end #header -->
+  <div id="contact_top"><a href="../contactus.html"> Contact us</a> | <a href="http://www.halopets.com" target="_blank">Halopets.com</a></div>
+  <div id="homelink"></div>
+   <!-- TemplateBeginEditable name="banner" --><!-- TemplateEndEditable --></div>
+  <div class="logo"><img src="../images/logo3.png" width="157" height="115" alt="Halo Pet Foundation" /></div><div class="rotate"> <!-- TemplateBeginEditable name="rotate" --><img src="../images/rotate-magic.png" width="470" height="60" /><!-- TemplateEndEditable --></div>
+  <div id="nav"><!-- TemplateBeginEditable name="navigation" --><div id="CSSMenu1_container" class="FM2_CSSMenu1_container" >
+<ul id="CSSMenu1" class="FM2_CSSMenu1">
+	<!-- version=0.0.0;name=CSSMenu1;baseskin=skin19;colorscheme=dark_purple;type=tabbed; -->
+	<li>
+	<a href="#" target="_self"><font class="leaf">Home</font></a>
+	</li>
+	<li>
+	<a href="#" target="_self"><font class="leaf">About</font></a>
+	</li>
+	<li>
+		<a href="#" target="_self"><span class="branch">Services</span></a>
+		<ul>
+			<li>
+			<a href="#" target="_self"><font class="leaf">Service&nbsp;One</font></a>
+			</li>
+			<li>
+				<a href="#" target="_self"><span class="branch">Service&nbsp;Two</span></a>
+				<ul>
+					<li>
+						<a href="#" target="_self"><span class="branch">Menu Item 1</span></a>
+						<ul>
+							<li>
+							<a href="#" target="_self"><font class="leaf">Sub Menu Item 1</font></a>
+							</li>
+							<li>
+							<a href="#" target="_self"><font class="leaf">Sub Menu Item 2</font></a>
+							</li>
+							<li>
+							<a href="#" target="_self"><font class="leaf">Sub Menu Item 3</font></a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#" target="_self"><span class="branch">Menu Item 2</span></a>
+						<ul>
+							<li>
+							<a href="#" target="_self"><font class="leaf">Sub Menu Item 1</font></a>
+							</li>
+							<li>
+							<a href="#" target="_self"><font class="leaf">Sub Menu Item 2</font></a>
+							</li>
+							<li>
+							<a href="#" target="_self"><font class="leaf">Sub Menu Item 3</font></a>
+							</li>
+						</ul>
+					</li>
+					<li>
+					<a href="#" target="_self"><font class="leaf">Menu Item 3</font></a>
+					</li>
+					<li>
+					<a href="#" target="_self"><font class="leaf">Menu Item 4</font></a>
+					</li>
+				</ul>
+			</li>
+			<li>
+			<a href="#" target="_self"><font class="leaf">Service&nbsp;Three</font></a>
+			</li>
+		</ul>
+	</li>
+	<li>
+	<a href="#" target="_self"><font class="leaf">Blog</font></a>
+	</li>
+	<li>
+	<a href="#" target="_self"><font class="leaf">Contact</font></a>
+	</li>
+</ul>
+
+<script type="text/javascript">registerFlexiCSSMenu("CSSMenu1", {"menuType":"tabbed","effectSub":{"name":"slide","direction":"up","duration":250,"easing":"swing","useFade":true},"effectRest":{"name":"slide","direction":"up","duration":250,"easing":"swing","useFade":true},"effectSubTwo":{"name":"slide","direction":"left","duration":250,"easing":"swing","useFade":true},"options":{"preset":"fixed","enableTablet":true,"enableMobile":true,"mobileMaxWidth":640,"tabletMaxWidth":1023,"tabletCloseBtnLabel":"Close","tabletCloseBtnEnable":true,"align":"left"}});
+</script>
+</div>
+
+<a class="FM2_mobile_button" id="FM2_CSSMenu1_mobile_button"><span class="caption">Menu</span></a>
+<!-- TemplateEndEditable --></div>
+<br clear="all" /></div>
+  <div id="container"><!-- TemplateBeginEditable name="headline" -->
+    <div id="headline">Welcome to the Halo<br />
+      Pet Foundation</div>
+    <!-- TemplateEndEditable -->
+    <div id="sidebar1"><!-- TemplateBeginEditable name="sidebar" -->
+      <div class="border">
+        <div class="ellen"> <span style="color: #FF8F00; font-size: 14px; font-weight: bold;">Ellen DeGeneres</span><span style="color: #FF8F00; font-size: 14px;">,</span> <br />
+          Board member, Halo <br />
+          Pet Foundation </div>
+      </div>
+      <h3>&nbsp;</h3>
+      <!-- end #sidebar1 -->
+    <!-- TemplateEndEditable --></div>
+    <div id="mainContent"><!-- TemplateBeginEditable name="content" -->
+      <h2>&nbsp;</h2>
+      <p class="home_header">Mission </p>
+      <h2>Education about responsible pet care</h2>
+      <p> The Halo Pet Foundation’s mission is to enhance the well-being of pets and the people who love them. Inspired by our love for animals, we strive to help pets and their families live longer, happier, healthier lives together. Specifically, we seek to educate people on responsible pet ownership, eliminating animal abuse and reducing the overpopulation of uncared for pets.<br />
+      </p>
+      <p>We seek to bring together every resource at Halo’s disposal -- our unique history, ownership, partners, devoted customers and educational vehicles -- to maximize the impact of our philanthropy.
+        <!-- end #mainContent -->
+        <br />
+        <br />
+      </p>
+      <p class="home_header">Halo Philanthropy</p>
+      <ul>
+        <li>HALO, Purely for Pets donates a minimum of 1/2% of sales to the <br />
+          Halo Pet Foundation<strong>*</strong></li>
+        <li>In addition, Halo makes significant in-kind contributions.<br />
+        </li>
+      </ul>
+      <div class="footnote"> <strong>*</strong>According to “The 2008 Corporate Contributions Report” published by the Conference Board, Halo’s commitment is more than five times the national corporate average of 0.09% of sales. Halo Pet Foundation contributions commence July 1, 2009. </div>
+      <p>&nbsp; </p>
+      <p>&nbsp;</p>
+    <img src="../mock2/images/content/small_pBox.png" width="191" height="169" /><img src="../mock2/images/content/small_oBox.png" width="192" height="169" /><img src="../mock2/images/content/small_pBox.png" alt="" width="191" height="169" /><!-- TemplateEndEditable --></div>
+    <!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats --><br class="clearfloat" />
+    
+  <!-- end #container --></div>
+
+
+<div id="footer">
+  <div id="divider"></div><div id="socialNetworking01">
+   <a href="http://twitter.com/halopets" target="_blank"></a></td>
+       Network with Halo Pets:<br />
+        <a href="http://twitter.com/halopets" target="_blank"></a><a href="http://www.facebook.com/people/Halo_Pets/1462459338" target="_blank"><img src="http://halopets.com/images/facebook-01.gif" alt="Halo on Facebook" width="71" height="22" /></a><a href="http://blog.halopets.com/" target="_blank"><img src="http://www.halopets.com/images/images.jpeg" alt="Halo on MySpace" width="71" height="22" /></a><a href="http://twitter.com/halopets" target="_blank"><img src="http://halopets.com/images/twitter-01.gif" alt="Halo on Twitter" width="71" height="22" /></a>
+    <!-- end #footer -->
+  </div>
+  <div id="textmenu"> <a href="../index.html">Home | </a> <a href="../about_the_foundation.html">About the Foundation</a> |<a href="../stories.html"> Inspiring Stories</a> | <a href="../lend_a_paw.html">Lend a Paw</a> |<a href="../pressrelease.html">  </a> <a href="../grants.html">Grants Program</a>| <a href="../contactus.html">Contact Us </a>| <a href="http://www.halopets.com" target="_blank">Halopets.com</a> | <a href="http://www.halopets.com/privacy.html" target="_blank">Privacy Policy</a><br />
+    © Copyright 2017. All rights reserved.<a href="http://twitter.com/halopets" target="_blank"></a>&nbsp;&nbsp; &nbsp;&nbsp; </div>
+</div>
+</body>
+</html>

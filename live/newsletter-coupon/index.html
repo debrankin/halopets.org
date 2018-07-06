@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="ISO-8859-1">
+<title>print </title>
+
+
+
+<link href="print.css" rel="stylesheet" type="text/css" media="print">
+
+<script>
+<!--
+	function isRequired(fieldobject, name) {
+		var temp = fieldobject.value;
+		var obj = /^(\s*)([\W\w]*)(\b\s*$)/;
+		if (obj.test(temp)) { temp = temp.replace(obj, '$2'); }
+		var obj = / +/g;
+		temp = temp.replace(obj, " ");
+		if (temp == " ") { temp = ""; }
+		if (temp == "") {
+			fieldobject.style.borderColor="#FF6666";
+			fieldobject.style.borderWidth="2px";
+			fieldobject.style.borderStyle="solid";
+			window.alert("The "+name+" field is required."); return false;
+		} else {
+			return true;
+		}	
+	}
+
+</script>
+<style>
+	#content01 ol {
+		margin: 0 0 10px 20px;
+	}
+	
+	#content01 ol li {
+		background: none;
+		padding: 0;
+	}
+	
+	.formTable01 th {
+		text-align: right;
+		font-weight: normal;
+		padding: 2px 0 0 5px;
+	}
+	
+	.formTable01 td {
+		padding: 2px 0 0 5px;
+	}
+	
+	.formTable01 .inputField01 {
+		border: 1px solid #50842a;
+		height: 20px;
+	}
+</style>
+</head>
+                    
+<body>
+
+<div id="mainWrapper01">
+  <div id="contentWrapper01">
+
+		
+	
+			<div><img src="105055-thumb.png" alt="Coupon Preview" width="240" height="160"></div>
+			
+			<p>&nbsp;</p>
+			
+			<form action="" method="get" name="printCoupon" id="printCoupon">
+				<table class="formTable01">
+					<tr>
+						<th><label for="fullname">Name</label></th>
+						<td><input type="text" name="fullname" id="fullname" value="" class="inputField01"></td>
+					</tr>
+					<tr>
+						<th><label for="email">Email</label></th>
+						<td><input type="text" name="email" id="email" value="" class="inputField01"></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><a href="javascript: void(null);" onClick="if (isRequired(document.getElementById('fullname'), 'Name') && isRequired(document.getElementById('email'), 'Email')) { document.getElementById('printName01').innerHTML=document.getElementById('fullname').value; document.getElementById('printEmail01').innerHTML=document.getElementById('email').value; window.print();}"><img src="print-coupon-01.gif" alt="Print Coupon" style="margin: 5px 0 0 0;"></a></td>
+					</tr>
+				</table>
+			</form>
+		
+		
+  </div>
+			
+	
+</div>
+
+
+
+<div id="couponPrint" style="font-family:Arial, Helvetica, sans-serif; font-size: 14px;">
+<img src="105055.png"  width="688" height="402">
+<div style="position: absolute; top: 100px; left: 100px;">NAME: <div style="font-weight: bold; display: inline;" id="printName01">VOID</div></div>
+<div style="position: absolute; top: 150px; left: 100px;">EMAIL: <div style="font-weight: bold; display: inline;" id="printEmail01">VOID</div></div>
+<div style="position: absolute; top: 200px; left: 100px;">EXPIRES: <div style="font-weight: bold; display: inline;" id="expires01">
+<script language="javascript" type="text/javascript">
+<!--
+var expiration=new Date();
+expiration.setDate(expiration.getDate() + 14);
+var month=expiration.getMonth() + 1;
+var day=expiration.getDate();
+var year = expiration.getFullYear();
+document.write(month + "/" + day + "/" + year);
+//-->
+</script>
+</div></div>
+</div>
+
+</body>
+
+
+</html>
